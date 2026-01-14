@@ -7,9 +7,9 @@
     <title>Sarthak Tyagi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
     <meta name="description"
-        content="Portfolio of Sarthak Tyagi — Computer Science student at MIET, skilled in Python, Web Development, Linux and Networking. Business Head - IT at The SHER.">
+        content="Portfolio of Sarthak Tyagi - Computer Science student at MIET, skilled in Python, Web Development, Linux and Networking. Business Head - IT at The SHER.">
     <meta name="keywords"
         content="Sarthak Tyagi, portfolio, developer, computer science, Python, web development, MIET, GitHub, IT">
     <meta name="author" content="Sarthak Tyagi">
@@ -17,19 +17,19 @@
     <meta property="og:title" content="Sarthak Tyagi | Portfolio" />
     <meta property="og:description"
         content="Computer Science student & developer | Skilled in Python, Web Development, Linux, Networking | Business Head - IT at The SHER." />
-    <meta property="og:image" content="ST.png" />
+    <meta property="og:image" content="ST.webp" />
     <meta property="og:url" content="https://sarthak-cs.github.io/" />
     <meta property="og:type" content="website" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+
 
 </head>
 
 <body>
+
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="ST.png">
-                Sarthak Tyagi
+                <a href="https://sarthak-cs.github.io/"><img src="images/ST.webp" alt="Sarthak Tyagi Logo" loading="lazy"></a>
             </div>
             <div class="hamburger" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
@@ -38,9 +38,8 @@
 
 
             <ul class="nav-links" id="navLinks">
-                <!-- <li><a href="">Resume</a></li> -->
-                <li><a href="#about">About</a></li>
-                <li><a href="#Projects">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
 
 
@@ -48,210 +47,407 @@
         </nav>
 
     </header>
-    <main>
-        <section class="home">
-            <div class="overlay">
-                <div class="about-text" id="about">
-                    <h2>👋 Hi, I'm Sarthak Tyagi, a creative developer from India...</h2>
-                    <div>
-                        <h1>I am a <span class="auto-type"></span></h1>
-                    </div>
-
+    <section class="home">
+        <div class="overlay">
+            <div class="about-text">
+                <h2>Hi, I'm <strong>Sarthak Tyagi</strong>, a Web Developer & Python Engineer building performant,
+                    real-world systems</h2>
+                <div>
+                    <h1>I am a <span class="auto-type"></span></h1>
                 </div>
+
             </div>
+        </div>
 
-        </section>
-        <section class="about-me">
-            <h1>About Me</h1>
-            <div class="about-me-box">
-                <div class="about-image">
-                    <img src="sarthak.jpeg" alt="Sarthak Tyagi" loading="lazy">
-                </div>
+    </section>
 
-                <div class="about-me-text">
-                    <h3>
-                        I'm Sarthak Tyagi, an incoming Computer Science undergrad with a strong interest in building web
-                        applications
-                        and automation tools.<br>
-                        I currently serve as the <strong>Business Head - IT</strong> at <em><a
-                                href="https://www.linkedin.com/in/mukulsarangofficial/" target="_blank" rel="noopener"
-                                rel="noreferrer"> Scholars Higher Education
-                                Route</a></em>, where I built and manage their <a href="https://www.mukulsarang.com/"
-                            target="_blank" rel="noopener" rel="noreferrer">official website</a> and other tech
-                        operations.<br>
-                        I'm constantly learning and love exploring Python, Linux and the web and aim to contribute
-                        meaningfully in tech from the very beginning of my academic journey.
-                    </h3>
-
-                </div>
-            </div>
+    <main class="container">
+        <aside class="profile-card">
+            <img src="images/sarthak.webp" alt="Profile picture of Sarthak Tyagi" loading="lazy" fetchpriority="high"/>
+            <p class="abt">I am <strong>Sarthak Tyagi</strong>, an incoming Computer Science undergraduate focused on
+                building <strong>practical web applications and automation systems</strong>. I work with <strong>Python,
+                    Cybersecurity and modern
+                    web
+                    technologies</strong>, prioritizing hands-on development and real-world problem solving from the
+                very beginning of my academic journey.
+            </p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/sarthak-tyagi-cs/" target="_blank" rel="noopener" rel="noreferrer"
-                    class="cta-button3"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/sarthak-cs/" target="_blank" rel="noopener" rel="noreferrer"
-                    class="cta-button4"><i class="fa-brands fa-github"></i></a>
-                <a href="https://wa.me/919927623790" target="_blank" rel="noopener" rel="noreferrer"
-                    class="cta-button1"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com/sarthak_tyagi_cs/" target="_blank" rel="noopener" rel="noreferrer"
-                    class="cta-button2"><i class="fa-brands fa-instagram"></i></a>
-                <!-- <a href="https://www.linkedin.com/in/sarthak-tyagi-cs/" target="_blank" rel="noopener" rel="noreferrer"
-                    class="cta-button5"><i class="fa-regular fa-file"></i></a> -->
+                <a href="https://www.linkedin.com/in/sarthak-tyagi-cs/" target="_blank" rel="noopener noreferrer"
+                    class="cta-button3" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/sarthak-cs/" target="_blank" rel="noopener noreferrer"
+                    class="cta-button4" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/919927623790" target="_blank" rel="noopener noreferrer" class="cta-button1" aria-label="WhatsApp"><i
+                        class="fa-brands fa-whatsapp" ></i></a>
+                <a href="mailto:tsarthak878@gmail.com" target="_blank" rel="noopener noreferrer" class="cta-button2" aria-label="Email"><i
+                        class="fa-regular fa-envelope"></i></a>
+
+
 
             </div>
-        </section>
-        <section class="resume tech" id="tech">
-            <h1>My Tech Stack</h1>
+            <div class="rsmebtn">
 
-            <div class="skills-cards">
-                <div class="card"><i class="fa-brands fa-python"></i><br><strong>Python:</strong>
-                    <p>Scripting, web tools, CLI/GUI projects.</p>
-                </div>
-                <div class="card"><i class="fa-brands fa-c"></i><br><strong>C-Language:</strong>
-                    <p>Problem-solving, DSA foundations, core programming.</p>
-                </div>
-                <div class="card"><i class="fa-brands fa-html5"></i><br><strong>HTML5:</strong>
-                    <p>Responsive layouts, semantic web pages.</p>
-                </div>
-                <div class="card"><i class="fa-brands fa-css3-alt"></i><br><strong>CSS3:</strong>
-                    <P>Custom UI, animations, modern design.</P>
-                </div>
-                <div class="card"><i class="fa-brands fa-js"></i><br><strong>JavaScript:</strong>
-                    <p>Dynamic UI, Typed.js effects, interactivity.</p>
-                </div>
-                <div class="card"><i class="fa-solid fa-network-wired"></i><br><strong>Networking:</strong>
-                    <p>Basics of CN, learning protocols, security.</p>
-                </div>
-                <div class="card"><i class="fa-solid fa-database"></i><br><strong>Database:</strong>
-                    <p>DBMS, MySQL queries, relational database design.</p>
-                </div>
-                <div class="card"><i class="fa-solid fa-terminal"></i><br><strong>Linux:</strong>
-                    <p>System navigation, shell commands, environment setup</p>
-                </div>
-                <div class="card"><i class="fa-brands fa-git-alt"></i><br><strong>Git:</strong>
-                    <p>Version control, GitHub deployment.</p>
-                </div>
+                <a href="https://drive.google.com/file/d/15aeWqcra7J-I7slawuKDv-hpCApNeafP/view?usp=drive_link"
+                    target="_blank" rel="noopener"  class="download-resume-btn" aria-label="View Resume"><i class="fa-solid fa-eye"></i> View My
+                    Resume</a>
             </div>
-        </section>
-        <section class="resume Projects" id="Projects">
-            <h1>Projects</h1>
-            <ul>
-                <li>
-                    <h2>Official Website: <i>The Scholars Higher Education Route (The SHER)</i> <a
-                            href="https://www.mukulsarang.com/" target="_blank" rel="noopener" rel="noreferrer">
-                            [www.mukulsarang.com]</a>
-                    </h2>
-                </li>
-                <p>Designed developed and deployed the official website for The SHER using custom HTML and CSS, with
-                    responsive layout and clean UI focused on professionalism and usability.<br><br></p>
-
-                <p>Achieved 90+ scores via Google Lighthouse auditing and ensured fast load times by optimizing code
-                    and assets.<br><br></p>
-
-                <p>Handled domain management, Netlify deployment, Search Engine Optimization and performance
-                    monitoring.<br><br></p>
-                <p><strong>Skills Used: HTML, CSS, JS</strong></p>
-                <p> <strong>Technologies: Netlify, SEO, Website Deployment</strong>
-                </p>
-                <!-- <div class="project-preview">
-                    <iframe src="https://www.mukulsarang.com/" title="The SHER Website"></iframe>
-                </div> -->
-
-            </ul>
-            <hr>
-            <ul>
-                <li>
-                    <h2>Attendance System using Facial Recognition
-                    </h2>
-                </li>
-                <p>Developed a facial recognition attendance system using OpenCV in Python, tested with a dataset of 50+
-                    student images, achieving over 90% face match accuracy in controlled lighting conditions.<br><br>
+            <section class="hire-me">
+                <p>
+                    Prefer secure contracts and milestones?<br>
+                    Hire me directly via <strong>Fiverr</strong>.
                 </p>
 
-                <p>Enhanced efficiency by the automated attendance tracking system, reducing manual entry time by 80%
-                    and improving accuracy of records.<br><br></p>
+                <a href="https://www.fiverr.com/sarthak_tyagi_c" target="_blank"  class="hire-btn" aria-label="Fiverr">
+                    Let's Work <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </section>
+        </aside>
 
-                <p><strong>Skills Used: Python, Database Management</strong></p>
-                <p> <strong>Technologies: Machine Learning, OpenCV.</strong>
-                </p>
+        <section class="content" id="projects">
+            <h2>Projects</h2>
 
-            </ul>
-
-        </section>
-        <section class="Experience resume">
-            <h1>Experience</h1>
-
-            <ul>
-                <li>
-                    <h2>Business Head- I.T. at The Scholars Higher Education Route (SHER)</h2>- 2025-Present
-                </li>
-                <p>Built and maintaining the official website <a href="https://www.mukulsarang.com/" target="_blank"
-                        rel="noopener" rel="noreferrer">
-                        (www.mukulsarang.com)</a> to establish the organization's online presence.<br><br></p>
-
-                <p>Leading the strategic direction and execution of all IT operations and initiatives across the
-                    educational organization.<br><br></p>
-
-                <p>Collaborate with internal teams to ensure digital platforms align with business goals and user
-                    needs. </p>
-
-            </ul>
-        </section>
-
-        <section class="resume contact" id="contact">
-            <h1>Contact me</h1>
-            <div class="form-container">
-                <iframe src="https://forms.gle/JesPGz89HfAPHyqCA" frameborder="0" marginheight="0" marginwidth="0"
-                    loading="lazy" allowfullscreen title="Contact form">Loading…
-                </iframe>
+            <div class="repo">
+                <div class="hover_img">
+                    <a href="https://github.com/sarthak-cs/ReadmeGen" target="_blank" rel="noopener" rel="noreferrer">
+                        <h3>ReadmeGen: Automatic README Generator</h3><span><img src="images/prj1.webp" loading="lazy" alt="ReadmeGen project screenshot"
+                                height="200" /></span>
+                    </a>
+                </div>
+                <ul class="experience-points">
+                    <li> Engineered a Python tool to auto-generate README files from project structures, extracting
+                        dependencies, description, tech stack and run instructions.</li>
+                    <li>Increased documentation efficiency by 85%, eliminating repetitive manual efforts for complex
+                        multi-module projects and saving developer time. </li>
+                </ul>
             </div>
 
+            <div class="repo">
+                <div class="hover_img">
+                    <a href="https://github.com/sarthak-cs/Digital-Krishi-Officer" target="_blank" rel="noopener"
+                        rel="noreferrer">
+                        <h3>Digital Krishi Officer: AI-powered farming assistant</h3><span><img src="images/prj2.webp" loading="lazy"
+                                alt="Digital Krishi Officer project screenshot" height="200" /></span>
+                    </a>
+                </div>
+                <ul class="experience-points">
+                    <li>Built a full-stack application in Smart India Hackathon enabling farmers to interact via
+                        text/voice, analyze plant health from images and access real-time local weather, crop prices and
+                        government schemes in 5+ languages using Python, OpenCV, Flask, HTML, CSS and
+                        JS. </li>
+                    <li>Leveraged Gemini LLM to handle natural language queries, voice responses and plant disease
+                        detection, achieving 92% accuracy on a
+                        diverse leaf image test dataset. </li>
+                    <li>
+                        Enhanced accessibility and adoption among Indian farmers by combining multilingual support with
+                        intuitive UI design.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="repo">
+                <div class="hover_img">
+                    <a href="https://www.mukulsarang.com" target="_blank" rel="noopener" rel="noreferrer"   aria-label="The Scholars Higher Education Route official website">
+                        <h3>Official Website: The Scholars Higher Education Route (The SHER)</h3><span><img
+                                src="images/prj3.webp" loading="lazy" alt="The Scholars Higher Education Route official website screenshot" height="200" /></span>
+                    </a>
+                </div>
+                <ul class="experience-points">
+                    <li> Designed developed and deployed the official website for The SHER using custom HTML, CSS and
+                        JS, with responsive layout and clean UI focused on professionalism and usability.</li>
+                    <li>Achieved 90+ scores via Google Lighthouse auditing and ensured fast load times by optimizing
+                        code and assets.</li>
+                    <li>Handled domain management, Netlify deployment, Search Engine Optimization and performance
+                        monitoring.</li>
+                </ul>
+            </div>
+
+            <div class="repo">
+                <h3>Want to check out more projects?<br> <a href="https://github.com/sarthak-cs/" target="_blank" rel="noopener noreferrer" aria-label="Sarthak's GitHub profile">Look at my GitHub</a></h3>
+            </div>
 
         </section>
 
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
     </main>
+    <section class="resume tech" id="Experience">
+        <h2>Work Experience</h2>
+
+        <div class="repo">
+            <div class="hover_img">
+                <a>
+                    <h3>Business Head - IT & Web Operations</h3><span><img src="images/cert11.webp" loading="lazy" alt="Business Head - IT & Web Operations certificate"
+                            height="200" /></span>
+                </a>
+            </div>
+            <p>The Scholars Higher Education Route (The SHER) | Remote | June 2025 - Present</p>
+            <ul class="experience-points">
+                <li> Built and maintaining the official website <a href="https://www.mukulsarang.com" target="_blank"
+                        rel="noopener noreferrer"><i>(www.mukulsarang.com)</i></a> to
+                    establish the organization's online presence.</li>
+                <li> Leading the strategic direction and execution of all IT operations and initiatives across the
+                    educational organization. </li>
+                <li> Collaborate with internal teams to ensure digital platforms align with business goals and user
+                    needs.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="resume tech" id="training">
+        <h2>Virtual Experience & Training</h2>
+        <div class="repo">
+            <h3>Open-Source Contributor</h3>
+            <p>Independent & Program-Based Open Source Contributions | 2025</p>
+            <ul class="experience-points">
+                <li> Used <strong>Python</strong> to contribute test cases, configuration enhancements and documentation
+                    improvements to open-source codebases (including the Heiro Python SDK), with multiple merged PRs.
+                </li>
+                <li> Worked within standard <strong>GitHub collaboration workflows</strong> (issues, pull requests, code
+                    reviews) through structured open-source programs such as <strong>ECWoC</strong>. </li>
+            </ul>
+        </div>
+        <div class="repo">
+            <div class="hover_img">
+                <a href="https://github.com/sarthak-cs/CODSOFT" target="_blank" rel="noopener" rel="noreferrer" aria-label="CODSOFT GitHub repository">
+                    <h3>Python Programming Intern</h3><span><img src="images/cert9.webp" loading="lazy" alt="Python Programming Intern certificate"
+                            height="200" /></span>
+                </a>
+            </div>
+            <p>Codsoft | Internship | Remote | October 2025 - November 2025</p>
+            <ul class="experience-points">
+                <li> Developed 5 Python applications, including CLI and GUI programs with Tkinter, improving operational
+                    efficiency and automating
+                    repetitive tasks.</li>
+                <li> Applied core Python concepts - file handling, modular programming, functions and UI design -
+                    enhancing
+                    code maintainability and
+                    reducing runtime errors by 25%. </li>
+            </ul>
+        </div>
+
+        <div class="repo">
+            <div class="hover_img">
+                <a aria-label="AWS APAC Solutions Architecture certificate">
+                    <h3>AWS APAC Solutions Architecture</h3><span><img src="images/cert2.webp" loading="lazy" alt="AWS APAC Solutions Architecture certificate"
+                            height="200" /></span>
+                </a>
+            </div>
+            <p>Forage | Virtual Job | November 2025</p>
+            <ul class="experience-points">
+                <li> Designed and simple and scalable hosting architecture based on Elastic Beanstalk for a client
+                    experiencing significant growth and slow response times.</li>
+                <li> Described my proposed architecture in plain language ensuring my client understood how it works and
+                    how
+                    costs will be calculated for it. </li>
+            </ul>
+        </div>
+
+        <div class="repo">
+            <div class="hover_img">
+                <a aria-label="Deloitte Data Analytics certificate">
+                    <h3>Deloitte Data Analytics</h3><span><img src="images/cert8.webp" loading="lazy" alt="Deloitte Data Analytics certificate" height="200" /></span>
+                </a>
+            </div>
+            <p>Forage | Virtual Job | November 2025</p>
+            <ul class="experience-points">
+                <li> Performed data analysis and forensic investigation tasks as part of a Deloitte virtual job
+                    simulation,
+                    analyzing structured datasets.</li>
+                <li> Built a Tableau dashboard and used Excel to classify data and derive business-level insights. </li>
+            </ul>
+        </div>
+        <div class="repo">
+            <div class="hover_img">
+                <a aria-label="Deloitte Cybersecurity certificate">
+                    <h3>Deloitte Cybersecurity</h3><span><img src="images/cert10.webp" loading="lazy" alt="Deloitte Cybersecurity certificate" height="200" /></span>
+                </a>
+            </div>
+            <p>Forage | Virtual Job | November 2025</p>
+            <ul class="experience-points">
+                <li> Analyzed web activity logs during a simulated cybersecurity incident to identify suspicious user
+                    behavior.</li>
+                <li> Supported a client breach investigation by answering investigative queries and assessing security
+                    risks. </li>
+            </ul>
+        </div>
+        <div class="repo">
+            <div class="hover_img">
+                <a aria-label="Deloitte Technology certificate">
+                    <h3>Deloitte Technology</h3><span><img src="images/cert6.webp" loading="lazy" alt="Deloitte Technology certificate" height="200" /></span>
+                </a>
+            </div>
+            <p>Forage | Virtual Job | November 2025</p>
+            <ul class="experience-points">
+                <li> Completed a Deloitte technology job simulation involving development and coding tasks for business
+                    use
+                    cases.</li>
+                <li> Authored a technical proposal outlining the design and implementation of a data dashboard. </li>
+            </ul>
+        </div>
+    </section>
+    <section class="resume tech" id="tech">
+        <h2>My Tech Stack</h2>
+
+        <div class="skills-cards">
+            <div class="card"><i class="fa-brands fa-python"></i><br><strong>Python:</strong>
+                <p>Scripting, web tools, CLI/GUI projects.</p>
+            </div>
+            <div class="card"><i class="fa-brands fa-c"></i><br><strong>C-Language:</strong>
+                <p>Problem-solving, DSA foundations, core programming.</p>
+            </div>
+            <div class="card"><i class="fa-brands fa-html5"></i><br><strong>HTML5:</strong>
+                <p>Responsive layouts, semantic web pages.</p>
+            </div>
+            <div class="card"><i class="fa-brands fa-css3-alt"></i><br><strong>CSS3:</strong>
+                <p>Custom UI, animations, modern design.</p>
+            </div>
+            <div class="card"><i class="fa-brands fa-js"></i><br><strong>JavaScript:</strong>
+                <p>Dynamic UI, interactivity.</p>
+            </div>
+            <div class="card"><i class="fa-solid fa-network-wired"></i><br><strong>Networking:</strong>
+                <p>Basics of CN, learning protocols, security.</p>
+            </div>
+            <div class="card"><i class="fa-solid fa-database"></i><br><strong>Database:</strong>
+                <p>DBMS, MySQL queries, relational database design.</p>
+            </div>
+            <div class="card"><i class="fa-solid fa-terminal"></i><br><strong>Linux:</strong>
+                <p>System navigation, shell commands, environment setup</p>
+            </div>
+            <div class="card"><i class="fa-brands fa-git-alt"></i><br><strong>Git:</strong>
+                <p>Version control, GitHub deployment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume tech">
+        <h1>Certifications</h1>
+        <div class="slideshow-container" onmouseover="pauseSlideshow()" onmouseout="resumeSlideshow()">
+
+            <div class="mySlides fade">
+                <img src="images/cert1.webp" loading="lazy" style="width:100%" alt="1st Certificate">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/cert10.webp" loading="lazy" style="width:100%" alt="10th Certificate">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/cert9.webp" loading="lazy" style="width:100%" alt="9th Certificate">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/cert2.webp" loading="lazy" style="width:100%" alt="2nd Certificate">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/cert3.webp" loading="lazy" style="width:100%" alt="3rd Certificate">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/cert8.webp" loading="lazy" style="width:100%" alt="8th Certificate">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images/cert4.webp" loading="lazy" style="width:100%" alt="4th Certificate">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/cert5.webp" loading="lazy" style="width:100%" alt="5th Certificate">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/cert6.webp" loading="lazy" style="width:100%" alt="6th Certificate">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/cert7.webp" loading="lazy" style="width:100%" alt="7th Certificate">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/cert11.webp" loading="lazy" style="width:100%" alt="11th Certificate">
+            </div>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+        </div>
+        <br>
+        <div class="repo interests">
+            <h2>Interests </h2>
+            <ul class="experience-points">
+                <li><strong>National-Level Shooter <i class="fa-solid fa-medal"></i> :</strong> Secured <strong>3+ medals</strong> in state, pre-national, and other competitive shooting events during 3 years of professional training.</li>
+                <li><strong>Chess Player <i class="fa-solid fa-chess"></i> :</strong> Active on <a href="https://www.chess.com/member/shaktimaan_001" target="_blank" rel="noopener noreferrer">Chess.com</a> with a peak rapid rating of <strong>1560+ Elo.</strong> </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-grid">
+
+            <form class="contact-form"
+                action="https://docs.google.com/forms/d/e/1FAIpQLServCEagG3Kx_PyGu0UiZ6ZN-KeIZsDHjgH5GVo7G9GNeaEgQ/formResponse"
+                method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="entry.1506724501" placeholder="Your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="entry.1572356296" placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="entry.1430176069" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+            <div class="contact-visual">
+                <img src="images/ST.webp" loading="lazy" alt="Sarthak Tyagi" id="imgClickAndChange" onclick="changeImage()">
+                <h4 class="image-caption" id="imgClickAndChange" onclick="changeImage()">Click me!</h4>
+            </div>
+        </div>
+
+        <iframe name="hidden_iframe" style="display:none;"></iframe>
+    </section>
+
+
     <footer>
+        <p><strong>&copy;
+                2024 -
+                <script>document.write(new Date().getFullYear())</script> Sarthak Tyagi. All rights reserved.
+            </strong></p>
         <div class="footer-content">
-            <p></p>
-            <br>
-            <p><strong>&copy;<script>document.write(new Date().getFullYear())</script> Sarthak Tyagi. All rights reserved.</strong></p>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/sarthak-tyagi-cs/" target="_blank" rel="noopener" rel="noreferrer"
+                <a href="https://www.linkedin.com/in/sarthak-tyagi-cs/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"
                     class="cta-button3"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/sarthak-cs/" target="_blank" rel="noopener" rel="noreferrer"
+                <a href="https://github.com/sarthak-cs/" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"
                     class="cta-button4"><i class="fa-brands fa-github"></i></a>
-                <a href="https://wa.me/919927623790" target="_blank" rel="noopener" rel="noreferrer"
-                    class="cta-button1"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.instagram.com/sarthak_tyagi_cs/" target="_blank" rel="noopener" rel="noreferrer"
-                    class="cta-button2"><i class="fa-brands fa-instagram"></i></a>
-
-
+                <a href="https://wa.me/919927623790" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp chat" class="cta-button1"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:tsarthak878@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" class="cta-button2"><i
+                        class="fa-regular fa-envelope"></i></a>
 
             </div>
             <br>
             <p>Thanks for visiting my Portfolio.</p>
         </div>
     </footer>
-    <script>
-        function toggleMenu() {
-            const nav = document.getElementById("navLinks");
-            nav.classList.toggle("active");
-        }
 
-    </script>
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".auto-type", {
-            strings: ["Designer", "Programmer", "Web Developer"],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true
-        })
-    </script>
-
+    <script src="script.js"></script>
 </body>
 
-
 </html>
-
-
-

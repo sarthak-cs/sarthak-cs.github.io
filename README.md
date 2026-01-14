@@ -1,14 +1,26 @@
-# Sarthak Tyagi - Portfolio  
+# Sarthak Tyagi - Portfolio
 
-This is my personal portfolio website built with **HTML, CSS, and JavaScript**, deployed on **GitHub Pages**.  
+Personal portfolio website showcasing my projects, skills and work in computer science, web development and automation.
+
+---
+
+**Live site:** https://sarthak-cs.github.io
 
 ---
 
-### 🛠️ Tech Stack  
-- HTML5  
-- CSS3  
-- JavaScript  
-- Git & GitHub Pages  
+## Overview
+- Clean, minimal design focused on clarity and performance
+- Built without frameworks to emphasize fundamentals
+- Deployed using GitHub Pages
 
 ---
+
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub Pages
+
+---
+
 © 2025 Sarthak Tyagi
